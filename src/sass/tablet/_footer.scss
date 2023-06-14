@@ -1,0 +1,16 @@
+@media screen and (min-width: $tablet) {
+  .footer {
+    padding: 29px;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+    & a {
+      margin-left: 8px;
+      margin-right: 4px;
+      &:hover,
+      &:focus {
+        margin-left: 12px;
+      }
+    }
+  }
+}

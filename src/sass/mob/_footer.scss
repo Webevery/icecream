@@ -1,0 +1,39 @@
+.footer {
+  width: 100vw;
+  margin-top: auto;
+  background-color: var(--third-section-bg);
+  padding: 25px;
+  border-top: 1px solid var(--review-bg-lines);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  line-height: 1.52;
+  color: var(--font-color-three);
+
+  & p {
+    display: flex;
+  }
+
+  & a {
+    color: var(--font-color-three);
+  }
+  &:focus,
+  &:hover {
+    a {
+      text-shadow: 0 0 3px #d4144300, 0px 0px 3px #fff, 0px 0px 5px #fff,
+        0px 0px 7px #fff, 0 0 1px var(--font-color-three);
+      transform: scale(1.05);
+      margin-left: 5px;
+      color: var(--font-color-five);
+    }
+  }
+}

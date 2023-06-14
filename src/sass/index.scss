@@ -1,0 +1,51 @@
+@import './variables';
+
+@import './mob/buttons';
+@import './tablet/buttons';
+@import './desktop/buttons';
+
+@import './mob/common';
+@import './tablet/common';
+@import './desktop/common';
+
+@import './mob/modal';
+@import './tablet/modal';
+@import './desktop/modal';
+
+@import './mob/header';
+@import './tablet/header';
+@import './desktop/header';
+
+@import './mob/burgerMenu';
+
+@import './mob/hero';
+@import './tablet/hero';
+@import './desktop/hero';
+
+@import './mob/products';
+@import './tablet/products';
+@import './desktop/products';
+
+@import './mob/howItsMade';
+@import './tablet/howItsMade';
+@import './desktop/howItsMade';
+
+@import './mob/gallery';
+
+@import './mob/reviews';
+@import './tablet/reviews';
+@import './desktop/reviews';
+
+@import './mob/location';
+@import './tablet/location';
+@import './desktop/location';
+
+@import './mob/contacts';
+@import './tablet/contacts';
+@import './desktop/contacts';
+
+@import './mob/footer';
+@import './tablet/footer';
+@import './desktop/footer';
+
+// @import './desktop/buttons';

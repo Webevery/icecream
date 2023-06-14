@@ -1,0 +1,18 @@
+@media screen and (min-width: $desktop) {
+  header {
+    padding: 37px var(--secton_tablet_padding) 10px;
+  }
+
+  .header__nav {
+    display: flex;
+  }
+
+  .header__nav-linc:hover,
+  .header__nav-linc:focus {
+    color: var(--font-color-two);
+  }
+
+  .burger__button {
+    display: none;
+  }
+}

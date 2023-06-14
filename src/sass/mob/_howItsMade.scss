@@ -1,0 +1,97 @@
+.how__section {
+  background-color: var(--third-section-bg);
+  // background-image: url(../images/about-bg-milk-mob.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom 857px left 50%;
+  & img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 46px;
+  }
+  & img:hover {
+    transform: scale(1.1);
+  }
+}
+
+.how__tablet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how__description {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--font-color-three);
+
+  width: 220px;
+  margin-bottom: 36px;
+
+  &:nth-child(2) {
+    margin-bottom: 20px;
+  }
+}
+
+.bold {
+  color: var(--font-color-four);
+  font-weight: 900;
+}
+
+.how__btn {
+  width: 176px;
+  height: 44px;
+  margin-bottom: 39px;
+
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+
+  & svg {
+    width: 10px;
+    height: 10px;
+    stroke: var(--font-color-two);
+  }
+
+  &:focus,
+  &:hover {
+    & svg {
+      stroke: var(--font-color-one);
+    }
+  }
+}
+
+.how__statistic {
+  display: flex;
+  flex-direction: column;
+  row-gap: 38px;
+}
+
+.how__statistic-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 31px;
+
+  & h5,
+  & img,
+  & p {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .how__section {
+    background-image: url(../images/about-bg-milk.png);
+  }
+}

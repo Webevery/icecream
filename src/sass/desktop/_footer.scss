@@ -1,0 +1,8 @@
+@media screen and (min-width: $desktop) {
+  .footer {
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+  }
+}

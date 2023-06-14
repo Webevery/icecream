@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <!-- <script type="module" src="./index.js"></script> -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/favicon-32x32.png"
+    />
+  </head>
+  <body loading="lazy">
+    <include src="./partials/header.html"></include>
+
+    <main>
+      <include src="./partials/hero.html"></include>
+
+      <include src="./partials/products.html"></include>
+      <include src="./partials/howItsMade.html"></include>
+      <include src="./partials/gallery.html"></include>
+      <include src="./partials/reviews.html"></include>
+      <include src="./partials/locations.html"></include>
+      <include src="./partials/contacts.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/toTopBtn.html"></include>
+
+    <include src="./partials/modals/heroModal.html"></include>
+    <include src="./partials/modals/heroModalReadMore.html"></include>
+    <include src="./partials/modals/productModal-1.html"></include>
+    <include src="./partials/modals/productModal-2.html"></include>
+    <include src="./partials/modals/productModal-3.html"></include>
+    <include src="./partials/modals/howItsMadeModal.html"></include>
+    <include src="./partials/modals/locationModal.html"></include>
+    <include src="./partials/modals/franchise.html"></include>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('EdEHhqkrh47QPGVKz');
+      })();
+    </script>
+  </body>
+</html>

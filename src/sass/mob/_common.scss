@@ -1,0 +1,125 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+*,
+::before,
+::after {
+  transition-duration: var(--transitionDuration);
+  // box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+
+.stop__scroll {
+  overflow: hidden;
+}
+
+section {
+  padding-left: var(--secton_side_padding);
+  padding-right: var(--secton_side_padding);
+  padding-top: 120px;
+  padding-bottom: 100px;
+  margin: 0;
+  width: 100vw;
+  // content-visibility: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+svg {
+  display: block;
+  margin: 0;
+}
+
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.section__title {
+  font-family: Titan One;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--font-color-two);
+  margin-bottom: 31px;
+}
+
+.section__review {
+  font-family: Titan One;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-section-bg);
+  margin-bottom: 15px;
+}
+
+.hidden__title {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+// .modal {
+//   width: 100vw;
+//   height: 100vh;
+//   position: fixed;
+//   padding: 30px;
+//   align-items: center;
+//   justify-content: center;
+//   background: linear-gradient(
+//     45deg,
+//     rgb(255 255 255 / 50%),
+//     var(--font-color-five)
+//   );
+//   z-index: 200;
+//   display: none;
+
+//   &__visible {
+//     display: flex;
+//   }
+
+//   &__content {
+//     background-color: var(--second-section-bg);
+//     padding: 50px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     box-shadow: 0px 0px 9px rgb(0 0 0 / 33%);
+//   }
+// }
