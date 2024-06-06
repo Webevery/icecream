@@ -82,7 +82,7 @@
     width: fit-content;
     height: inherit;
     margin-bottom: 0;
-    overflow-y: auto;
+    // overflow-y: auto;
   }
 }
 
@@ -104,12 +104,13 @@
 
   & p {
     overflow: auto;
-    line-height: 1;
+    // line-height: 1;
   }
 }
 
-.product__description {
-  overflow-y: auto;
+.modal-product__description {
+  // overflow-y: auto;
+  min-height: fit-content;
 }
 
 .cow {
@@ -124,6 +125,19 @@
 
 .location__content {
   padding: 0px;
+}
+
+.location__content {
+  width: 90vw;
+  height: 72vh;
+  & iframe {
+    width: 100%;
+    height: 100%;
+    & .i4ewOd-UzWXSb .i4ewOd-pzNkMb-haAclf .i4ewOd-pzNkMb-tJHJj {
+      height: 0px !important;
+      opacity: 0;
+    }
+  }
 }
 
 .franchise {

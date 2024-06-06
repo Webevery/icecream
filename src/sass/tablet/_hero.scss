@@ -41,6 +41,13 @@
 
     &-descr {
       margin-top: 47px;
+
+      & p {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
     }
 
     & p {

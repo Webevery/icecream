@@ -80,6 +80,9 @@
   text-align: left;
   letter-spacing: 0em;
   color: var(--font-color-three);
+  &:last-child {
+    font-size: 12px;
+  }
 }
 
 .location__addr:hover,
